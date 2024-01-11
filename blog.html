@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-abc" onclick="hideMenu()">Close</i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT US</a> </li>
+                    <li><a href="course.html">COURSES</a> </li>
+                    <li><a href="blog.html">BLOGS</a> </li>
+                    <li><a href="contact.html">CONTACT US</a> </li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bcd" onclick="showMenu()">Menu</i>
+        </nav>
+ <h1> Our Certificate & Online Program</h1>
+    </section>
+    
+<!---blog page content--->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="Images/certificate.png">
+            <h2>Our Certificate according to the course</h2>
+            <p>Students who will take any course from our university will be awarded with a precious certificate. The certificate will be 
+                awarded after successfully completing the course taken by the respective student. This certificate will contain the name
+                of the student , the name of the course and the signature of the honorable principal of our university. This certificate
+                will be treated as a special candidate certificate after completion of the course and that particular student will be
+                treated speacially inside and outside the university. </p>
+                <br>
+            <p>Certificates will be rpovided for all courses offered in this university. Our universitry offers various courses
+                which includes graduation , post graduation , degree , special courses and many more. Students will get a 
+                world class guidance for each and every course they take up. Every course is reasonably cheap in accordance to 
+                the infrastructute we are providing. </p>
+                <br>
+            <p>A certificate from a university represents a tangible recognition of a student's commitment, dedication, and successful completion
+                of a specific course of study. This document serves as a testament to the individual's acquisition of specialized knowledge
+                and skills within a particular field. Typically awarded after the completion of a short-term or specialized program, a university
+                certificate holds significance in both academic and professional realms. </p>
+                <br>
+            <p>Beyond its symbolic value, the certificate can enhance one's professional profile, providing a tangible credential that
+                can be showcased to potential employers or further educational institutions. In essence, a university certificate encapsulates
+                the culmination of educational endeavors and stands as a testament to the recipient's academic prowess and commitment to
+                continious learning.</p>
+
+                <div class="comment-box">
+                    <h3>Leave A Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Full Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>1</span>
+                <span>Business Analytics</span>
+            </div>
+            <div>
+                <span>2</span>
+                <span>Data Science</span>
+            </div>
+            <div>
+                <span>3</span>
+                <span>Machine Learning</span>
+            </div>
+            <div>
+                <span>4</span>
+                <span>Computer Science</span>
+            </div>
+            <div>
+                <span>5</span>
+                <span>Informartion Technology</span>
+            </div>
+            <div>
+                <span>6</span>
+                <span>Electronics And Communication</span>
+            </div>
+            <div>
+                <span>7</span>
+                <span>Robotics</span>
+            </div>
+            <div>
+                <span>8</span>
+                <span>Biomedical</span>
+            </div>
+            <div>
+                <span>9</span>
+                <span>Pure Science</span>
+            </div>
+            <div>
+                <span>10</span>
+                <span>Biological Science</span>
+            </div>
+            <div>
+                <span>11</span>
+                <span>BBA</span>
+            </div>
+            <div>
+                <span>12</span>
+                <span>MBA</span>
+            </div>
+            <div>
+                <span>13</span>
+                <span>MCA</span>
+            </div>
+            <div>
+                <span>14</span>
+                <span>B.Tech</span>
+            </div>
+            <div>
+                <span>15</span>
+                <span>Astronomy</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--footer-->
+
+<section class="footer">
+    <h4>Know Us</h4>
+    <p>A world class university with a great learning platform and amazing teaching professionals!!</p>
+
+    <div class="icons">
+        <a href="https://www.facebook.com" class="hero-btn">Facebook</a>
+        <a href="https://www.twitter.com" class="hero-btn">Twitter</a>
+        <a href="https://www.instagram.com" class="hero-btn">Instagram</a>
+        <a href="https://www.linkedin.com" class="hero-btn">Linkedin</a>
+    </div>
+</section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
